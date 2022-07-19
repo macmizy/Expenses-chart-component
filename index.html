@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+<body>
+  <div class="container">
+    <div class="header"> 
+     <p> My balance <br> 
+      <span>$921.48</span></p>
+     <img src="images\logo.svg" alt="logo">
+    </div>
+    <div class="main">
+      <div class="spending">
+        Spending - Last 7 days
+      </div>
+      <div class="chart">
+        <div class="graph">
+          <div class="graph-div">
+            <div class="amount-on-hover" id="1"></div>
+            <div class="bar" id="mon">1</div>          
+          </div>
+          <div class="graph-div">
+            <div class="amount-on-hover" id="2"></div>
+            <div class="bar" id="tue">2</div>
+          </div>
+          <div class="graph-div">
+            <div class="amount-on-hover" id="3"></div>
+            <div class="bar" id="wed">3</div>
+          </div>
+          <div class="graph-div">
+            <div class="amount-on-hover" id="4"></div>
+            <div class="bar" id="thu">4</div>
+          </div>
+          <div class="graph-div">
+            <div class="amount-on-hover" id="5"></div>
+            <div class="bar" id="fri">5</div>
+          </div>
+          <div class="graph-div">
+            <div class="amount-on-hover" id="6"></div>
+            <div class="bar" id="sat">6</div>
+          </div>
+          <div class="graph-div">
+            <div class="amount-on-hover" id="0"></div>
+            <div class="bar" id="sun">0</div>
+          </div>
+        </div>
+        <div class="day-name">
+          <div class="day">mon</div>
+          <div class="day">tue</div>
+          <div class="day">wed</div>
+          <div class="day">thu</div>
+          <div class="day">fri</div>
+          <div class="day">sat</div>
+          <div class="day">sun</div>
+        </div>
+      </div>
+      <hr>
+      <div class="footer">
+        <div class="right-foot">
+          Total this month <br>
+          <span>$478.33</span>
+        </div>
+        <div class="left-foot">
+          <p><span>+2.4% </span><br>
+          from last month</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Rufai Rahim Moyo</a>.
+  </div>
+</body>
+</html>
